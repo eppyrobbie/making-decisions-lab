@@ -8,10 +8,10 @@
 
 //CODE HERE
 let lovesCode = true
-if (lovesCode === ture) {
+if (lovesCode = true){
   console.log('I love to code!')
-} else {
-  console.log('Coding has its challenges')
+}
+else {console.log('Coding has its challenges.')
 }
 
 
@@ -28,7 +28,15 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
-
+if (amysAge > brittanisAge){
+  console.log('Amy is older.')
+}
+else if (brittanisAge > amysAge){
+  console.log('Brittani is older.')
+} 
+else {
+  console.log('They are the same age')
+}
 ////////// PROBLEM 3 //////////
 
 /*
