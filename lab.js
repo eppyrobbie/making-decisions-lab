@@ -44,11 +44,17 @@ else {
 */
 
 //CODE HERE
+if (amysBirthYear === brittanisBirthYear){
+  console.log('Amy & Brittani were born in the same year')
+} else {
+  console.log('Amy & Brittani were not born in the same year')
+}
+
 
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
-let rain = true;
+let temperature = 50;
+let rain = false;
 
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
@@ -56,6 +62,21 @@ let rain = true;
 */
 
 //CODE HERE
+if (temperature >= 80 && rain){
+  console.log('Tshirt and umbrella')
+} else if(temperature <= 80 && temperature >= 60 && rain){
+  console.log('Rain-jacket')
+} else if(temperature < 60 && rain){
+  console.log('Jacket and umbrella')
+}else if (temperature >= 80){
+  console.log('tshirt')}
+  else if(temperature<=80 && temperature >= 60){
+    console.log('long sleeve shirt')
+  } else if (temperature<=60){
+    console.log('jacket')
+  }
+
+
 
 ////////// PROBLEM 5 //////////
 
@@ -64,6 +85,9 @@ let rain = true;
 */
 
 //CODE HERE
+for (let i = 0; i < 10; i++) {
+  console.log('hello')
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -74,13 +98,17 @@ let rain = true;
 //CODE HERE
 
 ////////// PROBLEM 7 //////////
-
+for (let i = 1; i <= 10; i++) {
+  console.log(i)
+}
 /*
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
 //CODE HERE
-
+for (let i = 10; i <= 1; i--){
+  console.log(i)
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -92,6 +120,11 @@ let passingScore = 7;
 */
 
 //CODE HERE
+while (score < 7){
+  console.log('Your score is not high enough')
+  score += 1
+}
+
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
